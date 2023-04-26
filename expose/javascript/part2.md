@@ -9,8 +9,8 @@
 9. this code will cause an error because 'i' is not accessible or defined in line 11. the 'i' defined in line 6 is only accessible within the for loop scope.
 10. at line 12, the value of prices.length will be output to the console, so in this case, 3 will be output.
 11. this funcion will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price. although 'discounted' is of type const, this doesn't mean the list can't be pushed to -- it simply means that 'discounted' can't be reassigned.
-12. A. student.name
-    B. student['Grad Year']
-    C. student.greeting()
-    D. student['Favorite Teacher'].name
-    E. student.courseLoad[0]
+12. (A) student.name
+    (B) student['Grad Year']
+    (C) student.greeting()
+    (D) student['Favorite Teacher'].name
+    (E) student.courseLoad[0]
