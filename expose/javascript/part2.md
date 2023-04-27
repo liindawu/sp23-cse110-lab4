@@ -43,3 +43,8 @@
 14. (F) true because Boolean(2) evaluates to true because the Boolean Function argument is nonempty and non-zero, and true and true are the same type.
 
 15. == evaluates whether the two values are the same after type conversion if necessary. === does not perform type conversion at all -- the operands must have the same type.
+1
+
+17. the result will be that modifyArray will return the original array but with each value inside of it doubled, since that is what the function doSomething does to an input. this conclusion can be arrived at by looking inside the for loop inside modifyArray, where it iterates through each index in array while putting its corresponding value in the callback function, which is doSomething in this case. looking into the function doSomething, it simply returns the input value doubled, and this value is pushed into newArr, which is the array that will be returned.
+
+19. the output of the code is 1 4 and 3 simultaneously in that order, and after a 1 second delay, 2 is output.
