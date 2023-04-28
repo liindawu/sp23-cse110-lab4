@@ -12,7 +12,7 @@
 
 7. on line 14, the most recently stored value of finalPrice will be outputted on the console because finalPrice is a global variable, and the last value it stored is the value of the rounded discounted price of the last price in the 'prices' array, so in this case, it would be 150.
 
-8. this funcion will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price.
+8. this function will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price.
 
 9. this code will cause an error because 'i' is not accessible or defined in line 11. the 'i' defined in line 6 is only accessible within the for loop scope.
 
