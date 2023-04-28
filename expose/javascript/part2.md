@@ -4,7 +4,7 @@
 
 3. on line 14, the most recently stored value of finalPrice will be outputted on the console because finalPrice is a global variable, and the last value it stored is the value of the rounded discounted price of the last price in the 'prices' array, so in this case, it would be 150.
 
-4. this funcion will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price.
+4. this function will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price.
 
 5. this code will cause an error because 'i' is not accessible or defined in line 12. the 'i' defined in line 6 is only accessible within the for loop scope.
 
@@ -18,7 +18,7 @@
 
 10. at line 12, the value of prices.length will be output to the console, so in this case, 3 will be output.
 
-11. this funcion will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price. although 'discounted' is of type const, this doesn't mean the list can't be pushed to -- it simply means that 'discounted' can't be reassigned.
+11. this function will return an array of all the prices in the array 'prices' in the same exact order but with the discount in 'discount' applied to each price. although 'discounted' is of type const, this doesn't mean the list can't be pushed to -- it simply means that 'discounted' can't be reassigned.
 
 12. 
     - (A) student.name
